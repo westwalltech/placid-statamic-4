@@ -13,7 +13,7 @@
             "email": "hello@itsalec.co.uk"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Ritson\\Placid\\": "src/"
