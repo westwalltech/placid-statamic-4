@@ -1,5 +1,5 @@
 {
-    "name": "ritson/placid-statamic",
+    "name": "westwalltech/placid-statamic-4",
     "description": "Consume RESTful APIs in your Statamic templates",
     "type": "statamic-addon",
     "require": {
