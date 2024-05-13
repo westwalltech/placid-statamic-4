@@ -4,7 +4,7 @@
     "type": "statamic-addon",
     "require": {
         "guzzlehttp/guzzle": "^7",
-        "statamic/cms": "^4 || ^5"
+        "statamic/cms": "4 || 5.*"
     },
     "license": "MIT",
     "authors": [
@@ -28,6 +28,11 @@
             "providers": [
                 "Ritson\\Placid\\PlacidServiceProvider"
             ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
         }
     }
 }
